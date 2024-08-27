@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Imagenes/logo-lupa.png">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador de Texto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img class="imgLogo" src="Imagenes/logo-lupa - copia.png" alt="Logotipo del Encriptador de Texto" >
+        </a>
+    </header>
+
+    <main>
+        <section class="encriptador">
+            <textarea class="encriptar" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="encriptador-aviso">
+                <img src="Imagenes/bi_exclamation-circle-fill.png" alt="icon exclamacion">
+                <p class="texto-exclamacion">Solo letras minúsculas y sin acentos</p>
+
+            </div>
+            <div class="encriptador-botones">
+                <button type="submit" class="boton-encriptar">Encriptar</button>
+                <button type="submit" class="boton-desencriptar">Desencriptar</button>
+            </div>
+
+        </section>
+        <section class="resultado">
+            <div class="resultado-contenedor">
+                <img class="img-muñeco" id="img-muñeco" src="Imagenes/dete-cartton.png" alt="Imagen-muñeco">
+                <p class="txt-grande">Ningún mensaje fue encontrado</p>
+                <p class="txt-minimo">Ingrese el texto que desees encriptar o desencriptar.</p>  
+            </div>
+            <textarea class="evaluar" type="mensaje" readonly></textarea>
+            <button class="boton-copiar" type="submit">Copiar</button>
+
+        </section>
+    </main>
+
+    <footer>
+       <p  class="copyright">&copy;copyright 2024 - Todos los derechos reservados | Desarrollado por: Laura Sofia Gutierrez Duarte</p>
+       <a href="#" ref="">
+        <img src="" alt="">
+       </a>
+    </footer>
+
+    <script src="javascript.js"></script>
+
+    
+</body>
+</html>
